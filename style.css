@@ -107,12 +107,16 @@ h1.title .last-name {
   text-decoration: none;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn span {
   display: inline-block;
   transform: scaleX(0.9);
-  transform-origin: left;
+  transform-origin: center; /* corrigé : texte parfaitement centré */
 }
 
 .btn:hover {
